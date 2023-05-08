@@ -36,9 +36,7 @@ function App() {
   // Lifting the State
   return (
     <div className="App">
-      {/* Form for inputting expenses */}
       <NewExpense onAddExpense={addExpenseHandler} />
-      {/* List of Expenses */}
       <Expenses items={expenses} />
     </div>
   );
